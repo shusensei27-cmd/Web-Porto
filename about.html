@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | OKEDIT Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar container">
+            <div class="brand"><span>OKEDITHub</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html">Learning Tips</a></li>
+                <li><a href="porto.html">Portfolio</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-me container">
+        <div class="about-grid">
+            <div class="profile-pic">
+                <div class="img-circle"></div>
+            </div>
+            <div class="bio">
+                <h1>Halo, Saya [Nama Anda]</h1>
+                <p>Saya adalah seorang digital creator yang berfokus pada penggabungan seni visual dan teknologi. Sejak tahun 2020, saya telah mendalami dunia produksi video dan pengembangan web secara otodidak.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills container">
+        <h2>Keahlian Saya</h2>
+        <div class="skill-bars">
+            <div class="skill-item">
+                <label>Video Editing (Premiere Pro)</label>
+                <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <label>Music Production (FL Studio)</label>
+                <div class="progress-bg"><div class="progress-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <label>Frontend Web (HTML/CSS/JS)</label>
+                <div class="progress-bg"><div class="progress-fill" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline container">
+        <h2>Perjalanan Karir</h2>
+        <div class="timeline-wrapper">
+            <div class="time-block">
+                <span>2021</span>
+                <p>Mulai belajar editing video menggunakan HP.</p>
+            </div>
+            <div class="time-block">
+                <span>2022</span>
+                <p>Beralih ke PC dan mulai menggunakan FL Studio untuk hobi.</p>
+            </div>
+            <div class="time-block">
+                <span>2023 - Sekarang</span>
+                <p>Fokus membangun website portfolio dan menerima client freelance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container">
+        <h2>Hubungi Saya</h2>
+        <form id="contact-form" class="complex-form">
+            <div class="form-group">
+                <input type="text" placeholder="Nama Lengkap" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Aktif" required>
+            </div>
+            <div class="form-group">
+                <select>
+                    <option>Pilih Keperluan</option>
+                    <option>Video Project</option>
+                    <option>Music Beat</option>
+                    <option>Web Dev</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer class="footer">...</footer>
+    <script src="script.js"></script>
+</body>
+</html>
